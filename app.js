@@ -14,7 +14,7 @@ document.addEventListener('keydown', (event) => {
 newColors.addEventListener('click', (e) => setRandomColors())
 
 colTitles.forEach((colTitle) =>
-   colTitle.addEventListener('mouseover', (e) => { 
+   colTitle.addEventListener('mouseover', (e) => {
       colTitle.nextElementSibling.classList.add('hover')
    })
 )
